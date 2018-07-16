@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test">
+    <test name="all">
+        <classes>
+            <class name="com.wade.testNg.groups.GroupClass1"/>
+            <class name="com.wade.testNg.groups.GroupClass2"/>
+            <class name="com.wade.testNg.groups.GroupClass3"/>
+        </classes>
+    </test>
+
+    <test name="stuOnly">
+        <groups>
+            <run>
+                <include name="teacher"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.wade.testNg.groups.GroupClass1"/>
+            <class name="com.wade.testNg.groups.GroupClass2"/>
+            <class name="com.wade.testNg.groups.GroupClass3"/>
+        </classes>
+    </test>
+</suite>
