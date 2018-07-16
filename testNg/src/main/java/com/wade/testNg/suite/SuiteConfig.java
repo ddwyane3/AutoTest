@@ -11,22 +11,22 @@ import org.testng.annotations.BeforeTest;
 public class SuiteConfig {
 
     @BeforeSuite
-    public void beforeSuite(){
+    public void beforeSuite() {
         System.out.println("before Suite");
     }
 
     @AfterSuite
-    public void afterSuite(){
+    public void afterSuite() {
         System.out.println("after Suite");
     }
 
     @BeforeTest
-    public void beforeTest(){
+    public void beforeTest() {
         System.out.println("before test");
     }
 
     @AfterTest
-    public void afterTesst(){
+    public void afterTesst() {
         System.out.println("after test ");
     }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="groups2">
+    <test name="all">
+        <classes>
+            <class name="com.wade.testNg.groups2.Groups1"/>
+            <class name="com.wade.testNg.groups2.Groups2"/>
+        </classes>
+    </test>
+
+    <test name="only">
+        <groups>
+            <run>
+                <include name="server" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.wade.testNg.groups2.Groups1"/>
+            <class name="com.wade.testNg.groups2.Groups2"/>
+        </classes>
+    </test>
+
+</suite>
